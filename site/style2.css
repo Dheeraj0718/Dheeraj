@@ -1,0 +1,43 @@
+body {
+	background-image: url('Back.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+}
+h1 {
+	background-color:lightblue;
+	color:red;
+	text-align:center;
+	font-size:36px;
+}
+h2 {
+	color:blue;
+	text-align:center;
+	font-size:30px;
+}
+p {
+	color:black;
+	font-size:20px;
+}
+section li {
+	list-style: none;
+	font-weight: bold;
+}
+section p {
+	color: black;
+}
+a:link, a:visited {
+	text-decoration: none;
+	background-color: lightgreen;
+	border: 1px solid black;
+	color: red;
+	display: inline-block;
+	width: 300px;
+	text-align: center;
+	margin: 1px;
+}
+a:hover, a:active {
+	background-color: lightpink;
+	color: white;
+	cursor: pointer;
+}

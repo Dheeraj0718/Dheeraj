@@ -1,0 +1,27 @@
+body {
+	background-image: url('Back.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+}
+h1 {
+	background-color:lightblue; 
+	text-align: center; 
+	color:red;
+}
+h2 {
+	background-color:yellow; 
+	text-align: center; 
+	text-decoration: underline;
+	color:brown;
+}
+h3 {
+	background-color: magenta; 
+	text-align: center; 
+	color: indigo;
+}
+a:hover, a:active {
+			background-color: lightpink;
+			color: white;
+			cursor: pointer;
+			}
