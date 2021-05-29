@@ -3,6 +3,8 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	background-size: cover;
+	margin: 0;
+	padding: 0;
 }
 h1 {
 	background-color:lightblue; 
@@ -16,9 +18,9 @@ h2 {
 	color:brown;
 }
 h3 {
-	background-color: magenta; 
-	text-align: center; 
-	color: indigo;
+	background-color: lightslategrey;
+	text-align: center;
+	color: magenta;
 }
 a:hover, a:active {
 			background-color: lightpink;

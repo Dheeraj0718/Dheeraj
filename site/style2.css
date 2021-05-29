@@ -1,14 +1,31 @@
 body {
-	background-image: url('Back.jpeg');
-	background-repeat: no-repeat;
-	background-attachment: fixed; 
-	background-size: cover;
+	background-color: grey;
+	margin: 0;
+	padding: 0;
 }
-h1 {
+#top {
 	background-color:lightblue;
 	color:red;
 	text-align:center;
 	font-size:36px;
+}
+#section1 {
+	background-color: lightgreen;
+	margin: 15px;
+	padding: 15px;
+	border: 2px solid black;
+}
+#section2 {
+	background-color: lightgreen;
+	margin: 15px;
+	padding: 15px;
+	border: 2px solid black;
+}
+#section3 {
+	background-color: lightgreen;
+	margin: 15px;
+	padding: 15px;
+	border: 2px solid black;
 }
 h2 {
 	color:blue;
@@ -22,6 +39,7 @@ p {
 section li {
 	list-style: none;
 	font-weight: bold;
+	text-align: center;
 }
 section p {
 	color: black;
