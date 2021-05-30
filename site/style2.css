@@ -11,20 +11,20 @@ body {
 	color:red;
 	text-align:center;
 	margin: 0 0 20px 0;
+	border: 2px solid black;
 }
 .City {
-	background-color: lightgreen;
+	background-color: lightskyblue;
 	margin: 20px 150px 20px 150px;
 	padding: 15px;
 	border: 4px solid black;
 	width: 80%;
-	height: 500px;
+	height: 380px;
 	overflow: auto;
 	position: relative;
-	top: 20px;
 }
 h2 {
-	color:blue;
+	color:red;
 	text-align:center;
 	font-size:30px;
 }
@@ -45,8 +45,8 @@ section p {
 }
 a:link, a:visited {
 	text-decoration: none;
-	background-color: lightskyblue;
-	color: red;
+	background-color: lightgreen;
+	color: blue;
 	display: inline-block;
 	width: 303.5px;
 	text-align: center;
@@ -59,14 +59,13 @@ a:hover, a:active {
 	cursor: pointer;
 }
 h4 {
-	margin: 0px 600px 20px 600px;
 	font-size: 30px;
-	float: left;
-	position: relative;
-	top: 10px;
+	position: absolute;
+	top: -30px;
+	left: 885px;
 }
 h3 {
-	margin: 0px 1050px 20px 150px;
+	margin: 0px 150px 20px 1060px;
 	font-size: 30px;
 	float: left;
 }
