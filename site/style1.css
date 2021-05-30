@@ -1,7 +1,10 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	background-image: url('Back.jpeg');
 	background-repeat: no-repeat;
-	background-attachment: fixed; 
+	background-position: center;
 	background-size: cover;
 	margin: 0;
 	padding: 0;
@@ -16,7 +19,6 @@ header {
 h2 {
 	background-color:yellow; 
 	text-align: center; 
-	text-decoration: underline;
 	color:brown;
 }
 h3 {
