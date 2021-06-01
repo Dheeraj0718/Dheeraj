@@ -15,12 +15,19 @@ h1 {
 	border: 3px solid black;
 	position: relative;
 }
+.Headings {
+	list-style: none;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+    top: 30px;
+    margin-left: 35%;
+}
 .City {
 	background-color: lightskyblue;
-	margin: 20px 150px 20px 150px;
 	padding: 15px;
-	border: 4px solid black;
-	width: 80%;
+	border: 3px solid black;
+	width: 100%;
 	height: 350px;
 	overflow: auto;
 	position: relative;
@@ -29,54 +36,45 @@ h1 {
 h2 {
 	color:red;
 	text-align:center;
-	font-size:30px;
+	font-size: 30px;
 }
-p {
-	color:black;
-	font-size:20px;
+h4 {
+	position: absolute;
+	top: -20px;
+	right: 0px;
 }
-.Headings {
-	list-style: none;
-	font-weight: bold;
-	text-align: center;
-	margin: 20px 150px 20px 150px;
-	position: relative;
-    top: 30px;
+h3 {
+	position: absolute;
+    right: 0;
+    top: 25px;
+
 }
-section p {
-	color: black;
+h6 {
+	position: absolute;
+    left: 0;
+    top: 0px;
+    font-size: 115%;
+}
+@media (min-width: 1200px)
+{
+	.City {
+		float: left;
+		width: 50%;
+	}
 }
 a:link, a:visited {
 	text-decoration: none;
+	font-size: 130%;
 	background-color: lightgreen;
 	color: blue;
 	display: block;
-	width: 303.5px;
-	height: 42px;
+	width: 200px;
+	height: 30px;
 	text-align: center;
 	border: 2px solid black;
-	float: left;
 }
 a:hover, a:active {
 	background-color: lightpink;
 	color: white;
 	cursor: pointer;
-}
-h4 {
-	font-size: 30px;
-	position: absolute;
-	top: -10px;
-	right: 0px;
-}
-h3 {
-	font-size: 30px;
-	position: absolute;
-    right: 0;
-    top: 25px;
-}
-h5 {
-	font-size: 30px;
-	position: absolute;
-    left: 0;
-    top: 35px;
 }
